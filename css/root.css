@@ -3,6 +3,7 @@
 
 :root{
 	--robotics-white: #FCFCFC;
+	--robotics-white-hover: #F0F0F0;
 	--robotics-dark: #3F3F3F;
 	--robotics-accent: #2177A8;
 };

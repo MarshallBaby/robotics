@@ -28,6 +28,15 @@
 	list-style-type: none;
 	margin-right: 1.7rem;
 	color: var(--robotics-dark);
+	transition: 0.1s all ease;
+}
+
+.header__menu__item:hover{
+	color: var(--robotics-accent);
+}
+
+.header__menu__item--active{
+	color: var(--robotics-accent);
 }
 
 .header__menu__item i{
@@ -41,8 +50,55 @@
 
 
 .header__menu__dropdown section{
-	background-color: red;
+	border-radius: 15px;
+	background-color: var(--robotics-white);
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	display: flex;
+	flex-direction: column;
+	top: 35px;
+	left: -16px;
+}
+
+.header__menu__dropdown__item{
+	color: var(--robotics-dark);
+	background-color: var(--robotics-white);
+	padding: 4px 10px 4px 10px;
+	cursor: pointer;
+	transition: 0.2s all ease;
+	white-space: nowrap;
+	list-style-type: none;
+	font-size: 0.875em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+
+}
+
+.header__menu__dropdown__item:hover{
+	background-color: var(--robotics-white-hover);
+}
+
+.header__submenu{
+	margin-left: auto;
+}
+
+.header__submenu ul{
+	display: flex;
+	justify-content: row;
+}
+
+.header__submenu__item{
+	user-select: none;
+	cursor: pointer;
+	transition: 0.2s all ease;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.313rem;
+	font-weight: 500;
+	list-style-type: none;
+	margin-left: 1.7rem;
+	color: var(--robotics-dark);
+	transition: 0.1s all ease;
+}
+
+.header__submenu__item:hover{
+	color: var(--robotics-accent);
 }

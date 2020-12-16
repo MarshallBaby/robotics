@@ -1,5 +1,9 @@
 .display-none{
-	display: none;
+	display: none !important;
+}
+
+.rotate{
+	transform: rotate(180deg);
 }
 
 *{
