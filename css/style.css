@@ -1,0 +1,13 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: var(--robotics-white);
+}
+
+.wrapper{
+	max-width: 125.000em;
+	padding: 0px 10.625em 0px 10.625em;
+}

@@ -1,0 +1,17 @@
+.header{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	background-color: red;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.header__logo{
+	width: 100px;
+	height: 50px;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: contain !important;
+}

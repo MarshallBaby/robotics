@@ -8,6 +8,9 @@
 	<link rel="stylesheet" href="css/header.css">
 </head>
 <body>
-	<?php include "header.php" ?>
+	<div class="wrapper">
+		<?php include "header.php" ?>
+	</div>
+	
 </body>
 </html>
