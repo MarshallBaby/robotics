@@ -1,3 +1,7 @@
+.display-none{
+	display: none;
+}
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -10,4 +14,9 @@ body{
 .wrapper{
 	max-width: 125.000em;
 	padding: 0px 10.625em 0px 10.625em;
+}
+
+.arrow-left{
+	/*transition: 0.3s all ease;*/
+	transform: rotate(-90deg);
 }

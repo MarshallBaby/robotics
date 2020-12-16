@@ -1,17 +1,48 @@
 .header{
 	width: 100%;
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	background-color: red;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .header__logo{
-	width: 100px;
+	width: 88px;
+	height: auto;
+	margin-right: 4.313em;
+}
+
+.header__menu{
+	display: flex;
+	flex-direction: row;
+}
+
+.header__menu__item{
+	user-select: none;
+	cursor: pointer;
+	transition: 0.2s all ease;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.313rem;
+	font-weight: 400;
+	list-style-type: none;
+	margin-right: 1.7rem;
+	color: var(--robotics-dark);
+}
+
+.header__menu__item i{
+	font-size: 1.013rem;
+	opacity: 0.8;
+}
+
+.header__menu__dropdown{
+	position: relative;
+}
+
+
+.header__menu__dropdown section{
+	background-color: red;
+	position: absolute;
+	width: 50px;
 	height: 50px;
-	background-position: center !important;
-	background-repeat: no-repeat !important;
-	background-size: contain !important;
 }
