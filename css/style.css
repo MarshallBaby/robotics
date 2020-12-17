@@ -13,6 +13,7 @@
 
 body{
 	background-color: var(--robotics-white);
+	min-width: 300px;
 }
 
 .wrapper{
