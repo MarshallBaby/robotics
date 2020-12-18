@@ -12,4 +12,9 @@ $(function() {
 		$('.header__mobile__menu__exit').click(function() {
 			$(".header__mobile__menu")[0].classList.toggle('header__mobile__menu--active');
 		}); 
+
+		for(let i = 0; i < $('.projects__item').length; i++){
+			let projectItemClassName = "projects__item-" + i;
+			$('.projects__item')[i].classList.add(projectItemClassName);
+		}
 });

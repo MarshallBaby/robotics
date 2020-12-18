@@ -17,8 +17,35 @@
 <body>
 	<div class="wrapper">
 		<?php include "header.php" ?>
+	<div class="projects">
+		<div class="projects__item" style="background-image: url(../img/projects/IMG_4015.jpg);">
+			<div class="projects__item__dark"></div>
+		</div>
+		<div class="projects__item" style="background-image: url(../img/projects/IMG_3975.jpg);">
+			<div class="projects__item__dark"></div>
+		</div>
+		<div class="projects__item" style="background-image: url(../img/projects/IMG_3977.jpg);">
+			<div class="projects__item__dark"></div>
+		</div>
+		<div class="projects__item" style="background-image: url(../img/projects/IMG_3979.jpg);">
+			<div class="projects__item__dark"></div>
+		</div>
+		<div class="projects__item" style="background-image: url(../img/projects/IMG_3967.jpg);">
+			<div class="projects__item__dark"></div>
+		</div>
+		<div class="projects__item" style="background-image: url(../img/projects/IMG_3959.jpg);">
+			<div class="projects__item__dark"></div>
+		</div>
+		<div class="projects__item" style="background-image: url(../img/projects/IMG_4032.jpg);">
+			<div class="projects__item__dark"></div>
+		</div>
+		<div class="projects__item" style="background-image: url(../img/projects/IMG_3988-Pano.jpg);">
+			<div class="projects__item__dark"></div>
+		</div>
+	</div>
 	</div>
 
+	
 	<script src="script/script.js"></script>
 </body>
 </html>

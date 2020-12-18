@@ -2,11 +2,12 @@
         <div class="header__mobile__menu__exit"> <i class="fas fa-times"></i>
            </div>
             <ul>
-              <li> <a href="#"> О нас </a> </li>
-              <li> <a href="#"> Новости  </li>
+              <li> <a href="#"> О нас  </a> </li>
               <li> <a href="#"> Проекты </a> </li>
               <li> <a href="#"> Экскурсии </a> </li>
+              <li> <a href="#"> Сотрудничество </a> </li>
               <li> <a href="#"> Wiki </a> </li>
+
             </ul>
          </div>
      
