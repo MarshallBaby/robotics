@@ -1,6 +1,15 @@
 <div class="header__mobile__menu">
-        <div class="header__mobile__menu__exit"> <i class="fas fa-times"></i> </div>
-      </div>
+        <div class="header__mobile__menu__exit"> <i class="fas fa-times"></i>
+           </div>
+            <ul>
+              <li> <a href="#"> О нас </a> </li>
+              <li> <a href="#"> Новости  </li>
+              <li> <a href="#"> Проекты </a> </li>
+              <li> <a href="#"> Экскурсии </a> </li>
+              <li> <a href="#"> Wiki </a> </li>
+            </ul>
+         </div>
+     
 <div class="header">
       
       <img src="../img/logo.png" alt="header_logo" class="header__logo">
@@ -17,7 +26,7 @@
         <li class="header__menu__item"> <a href="#"> Новости </a> </li>
         <li class="header__menu__item"> <a href="#"> Проекты  </a></li>
         <li class="header__menu__item"> <a href="#"> Сотрудничество </a> </li>
-        <li class="header__menu__item"> <a href="#">Экскурсии  </a></li>
+        <li class="header__menu__item"> <a href="#"> Экскурсии </a></li>
       </ul>
       <ul class="header__submenu">
        <div class="header__submenu__menu"> <i class="fas fa-bars"></i> </div>

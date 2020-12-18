@@ -14,6 +14,8 @@
 body{
 	background-color: var(--robotics-white);
 	min-width: 300px;
+	overflow-x: hidden;
+	width: 100%;
 }
 
 .wrapper{
