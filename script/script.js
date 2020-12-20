@@ -17,4 +17,10 @@ $(function() {
 			let projectItemClassName = "projects__item-" + i;
 			$('.projects__item')[i].classList.add(projectItemClassName);
 		}
+
+		$( ".projects" )[0].style.width = $( window ).width() + "px";
+
+		$( window ).resize(function() {
+  		if($( window ).width() < 2000) {$( ".projects" )[0].style.width = $( window ).width() + "px";};
+		});
 });

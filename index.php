@@ -19,27 +19,43 @@
 		<?php include "header.php" ?>
 	<div class="projects">
 		<div class="projects__item" style="background-image: url(../img/projects/IMG_4015.jpg);">
+			
+			<span> Проектирование робототехнических комплексов </span>
 			<div class="projects__item__dark"></div>
 		</div>
 		<div class="projects__item" style="background-image: url(../img/projects/IMG_3975.jpg);">
+			
+			<span> Цифровое моделирование </span>
 			<div class="projects__item__dark"></div>
 		</div>
 		<div class="projects__item" style="background-image: url(../img/projects/IMG_3977.jpg);">
+			
+			<span> Промышленная маркировка товаров </span>
 			<div class="projects__item__dark"></div>
 		</div>
 		<div class="projects__item" style="background-image: url(../img/projects/IMG_3979.jpg);">
+			
+			<span> Разработка систем технического зрения </span>
 			<div class="projects__item__dark"></div>
 		</div>
 		<div class="projects__item" style="background-image: url(../img/projects/IMG_3967.jpg);">
+			
+			<span> Разработка технического решения </span>
 			<div class="projects__item__dark"></div>
 		</div>
 		<div class="projects__item" style="background-image: url(../img/projects/IMG_3959.jpg);">
+			
+			<span> Аддитивные технологии </span>
 			<div class="projects__item__dark"></div>
 		</div>
 		<div class="projects__item" style="background-image: url(../img/projects/IMG_4032.jpg);">
+			
+			<span> Обучение и переподготовка </span>
 			<div class="projects__item__dark"></div>
 		</div>
 		<div class="projects__item" style="background-image: url(../img/projects/IMG_3988-Pano.jpg);">
+			
+			<span> Все проекты </span>
 			<div class="projects__item__dark"></div>
 		</div>
 	</div>
