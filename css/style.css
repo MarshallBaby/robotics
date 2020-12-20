@@ -380,3 +380,16 @@ a{
 	}
 }
 
+.gallery__grid__thumb-ph0{
+	grid-area: ph1;
+}
+
+.gallery__grid__thumb-ph1{
+	grid-area: ph2;
+}
+
+
+.gallery__grid__thumb-ph2{
+	grid-area: ph3;
+}
+

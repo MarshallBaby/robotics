@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/root.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/index_gallery.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
@@ -59,6 +60,10 @@
 			<div class="projects__item__dark"></div>
 		</div>
 	</div>
+
+	<?php require "index_gallery.php" ?>
+
+
 	</div>
 
 	
