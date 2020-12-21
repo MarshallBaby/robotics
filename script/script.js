@@ -28,5 +28,8 @@ $(function() {
 			let n = "gallery__grid__thumb-ph" + i;
 			$('.gallery__grid__thumb')[i].classList.add(n);
 		}
-		
+
+		let galleryIframeHeigth = $(".gallery__grid__vid")[0].offsetHeight;
+
+		// $(".gallery__grid")[0].css = {"grid-teamplate-rows" = galleryIframeHeigth/3 + "px " + galleryIframeHeigth/3 + "px " + galleryIframeHeigth/3 + "px "} ; 
 });
