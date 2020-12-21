@@ -20,8 +20,16 @@ $(function() {
 
 		$( ".projects" )[0].style.width = $( window ).width() + "px";
 
+		if($( window ).width() < 2000) 
+  			{$( ".projects" )[0].style.width = $( window ).width() + "px";}else{
+  			$( ".projects" )[0].style.width = "2000px";	
+  			};
+
 		$( window ).resize(function() {
-  		if($( window ).width() < 2000) {$( ".projects" )[0].style.width = $( window ).width() + "px";};
+  		if($( window ).width() < 2000) 
+  			{$( ".projects" )[0].style.width = $( window ).width() + "px";}else{
+  			$( ".projects" )[0].style.width = "2000px";	
+  			};
 		});
 
 		for(let i = 0; i < $('.gallery__grid__thumb').length; i++){
@@ -29,7 +37,4 @@ $(function() {
 			$('.gallery__grid__thumb')[i].classList.add(n);
 		}
 
-		let galleryIframeHeigth = $(".gallery__grid__vid")[0].offsetHeight;
-
-		// $(".gallery__grid")[0].css = {"grid-teamplate-rows" = galleryIframeHeigth/3 + "px " + galleryIframeHeigth/3 + "px " + galleryIframeHeigth/3 + "px "} ; 
 });
