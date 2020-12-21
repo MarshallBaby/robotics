@@ -28,4 +28,5 @@ $(function() {
 			let n = "gallery__grid__thumb-ph" + i;
 			$('.gallery__grid__thumb')[i].classList.add(n);
 		}
+		
 });
