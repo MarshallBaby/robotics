@@ -43,14 +43,27 @@ body{
 	transform: rotate(-90deg);
 }
 
-.header{
+.header-empty{
 	width: 100%;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	height: 90px;
+}
+
+.header{
+	background-color: var(--robotics-white);
+	z-index: 50;
+	width: 80%;
+	padding: 25px 10% 20px 10%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	position: relative;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	transition: 0.3s all ease;
+}
+
+.header--hidden{
+	top: -200px;
 }
 
 .header__logo{

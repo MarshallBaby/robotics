@@ -37,4 +37,8 @@ $(function() {
 			$('.gallery__grid__thumb')[i].classList.add(n);
 		}
 
+		$( window ).scroll(function() {
+  	
+	});
+
 });

@@ -18,6 +18,7 @@
 <body>
 	<div class="wrapper">
 		<?php include "header.php" ?>
+		<div class="header-empty"></div>
 	<div class="projects">
 		<div class="projects__item" style="background-image: url(../img/projects/IMG_4015.jpg);">
 			
