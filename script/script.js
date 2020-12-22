@@ -20,25 +20,13 @@ $(function() {
 
 		$( ".projects" )[0].style.width = $( window ).width() + "px";
 
-		if($( window ).width() < 2000) 
-  			{$( ".projects" )[0].style.width = $( window ).width() + "px";}else{
-  			$( ".projects" )[0].style.width = "2000px";	
-  			};
-
 		$( window ).resize(function() {
-  		if($( window ).width() < 2000) 
-  			{$( ".projects" )[0].style.width = $( window ).width() + "px";}else{
-  			$( ".projects" )[0].style.width = "2000px";	
-  			};
+  		if($( window ).width() < 2000) {$( ".projects" )[0].style.width = $( window ).width() + "px";};
 		});
 
 		for(let i = 0; i < $('.gallery__grid__thumb').length; i++){
 			let n = "gallery__grid__thumb-ph" + i;
 			$('.gallery__grid__thumb')[i].classList.add(n);
 		}
-
-		$( window ).scroll(function() {
-  	
-	});
 
 });
