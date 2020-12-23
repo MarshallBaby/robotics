@@ -46,17 +46,18 @@ body{
 .header-empty{
 	width: 100%;
 	height: 90px;
+	display: none;
 }
 
 .header{
 	background-color: var(--robotics-white);
 	z-index: 50;
-	width: 80%;
-	padding: 25px 10% 20px 10%;
+	width: 100%;
+	padding: 25px 0px 20px 0px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	position: fixed;
+	/*position: fixed;*/
 	top: 0px;
 	left: 0px;
 	transition: 0.3s all ease;

@@ -41,11 +41,47 @@
 }
 
 .gallery__grid__thumb{
+	transition: 0.3s all ease;
+	cursor: pointer;
 	/*background-color: yellow;*/
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
 	background-position: center !important;	
+	position: relative;
+}
+
+.gallery__grid__thumb:hover .gallety__grid__thumb__dark{
+	opacity: 0.4;
+}
+
+.gallery__grid__thumb span{
+	font-family: "Raleway", sanf-serif;
+	font-size: 14px;
+	color: var(--robotics-white);
+	text-decoration: underline;
+	text-decoration-color: var(--robotics-white);
+	opacity: 0;
+	transition: 0.3s all ease;
+	z-index: 6;
+}
+
+.gallery__grid__thumb:hover span{
+	opacity: 1;
+}
+
+.gallety__grid__thumb__dark{
+	z-index: 5;
+	transition: 0.3s all ease;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0;
 }
 
 .gallery__grid__thumb-ph0{
