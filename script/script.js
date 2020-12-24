@@ -28,4 +28,19 @@ $(function() {
 			let n = "gallery__grid__thumb-ph" + i;
 			$('.gallery__grid__thumb')[i].classList.add(n);
 		}
+
+		$('.links__main__item')[0].classList.add('links__main__item--active');
+
+		let linksItemLength = $('.links__main__item').length;
+
+		$('.links__main__item' ).hover(
+  	function() {
+    	for(let i = 0; i < linksItemLength; i++){
+    		$('.links__main__item')[i].classList.remove('links__main__item--active');
+    		this.classList.add('links__main__item--active');
+    	}
+  }, function() {
+   	
+  }
+);
 });

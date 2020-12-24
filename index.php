@@ -7,11 +7,13 @@
 	<link rel="stylesheet" href="css/root.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/header.css">
-	<link rel="stylesheet" href="css/index_gallery.css">
+	<link rel="stylesheet" href="css/index__links.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
 	<script src="https://kit.fontawesome.com/673dec0f39.js" crossorigin="anonymous"></script>
 </head>
@@ -62,8 +64,27 @@
 		</div>
 	</div>
 
-	<?php require "index_gallery.php" ?>
+	<div class="gallery">
+	<div class="gallery__grid">
+		<div class="gallery__grid__vid">
+			 <iframe  src="https://www.youtube.com/embed/7X8II6J-6mU" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="gallery__grid__thumb" style="background: url(../img/gallery/ph1.jpg)">
+			<div class="gallety__grid__thumb__dark"></div>
+			<span>Больше фото</span>
+		</div>
+		<div class="gallery__grid__thumb" style="background: url(../img/gallery/ph2.jpg)">
+			<div class="gallety__grid__thumb__dark"></div>
+			<span>Больше фото</span>
+		</div>
+		<div class="gallery__grid__thumb" style="background: url(../img/gallery/ph3.jpg)">
+			<div class="gallety__grid__thumb__dark"></div>
+			<span>Больше фото</span>
+		</div>
+	</div>
+</div>
 
+	<?php require "index__links.php" ?>
 
 	</div>
 
