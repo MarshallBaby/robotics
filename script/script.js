@@ -63,9 +63,8 @@ $(function() {
             for (let i = 0; i < linksItemLength; i++) {
                 $('.links__main__item')[i].classList.remove('links__main__item--active');
                 this.classList.add('links__main__item--active');
-               
             }
-
+        
         },
         function() {
 

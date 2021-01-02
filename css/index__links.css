@@ -53,6 +53,7 @@
     -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.33);
     -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.33);
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.33);
+    transition: 0.1s all ease;
 }
 
 .links__main__item--active {
@@ -63,6 +64,7 @@
 .links__text{
 	display: none;
 	margin-left: 40px;
+	margin-bottom: 0;
 	flex-direction: column;
 }
 
