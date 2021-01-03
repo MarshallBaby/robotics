@@ -8,19 +8,22 @@ $(function() {
 
 		{
 			subtitle: "TowerLight Urcap",
-			description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, autem sapiente libero, quisquam laudantium cupiditate! ",
+			description : "Girl quit if case mr sing as no have. Her too add narrow having wished. Polite do object at passed it is. Small for ask shade water manor think men begin. Strictly numerous outlived kindness whatever on we no on addition. Expression alteration entreaties mrs can terminated estimating. As so seeing latter he should th",
 		},
 
 		{
 			subtitle: "WIKI",
-			description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, autem sapiente libero, quisquam laudantium cupiditate! ",
+			description : "Up hung mr we give rest half. Words to up style of since world. Celebrated delightful an especially increasing instrument am. Uncommonly no it announcing melancholy an in. Feel and make two real miss use easy. He felicity no an at packages answered opinions juvenile. He felicity no an at packages answered opinions juvenile. Now sum",
 		},
 
 		{
 			subtitle: "RAIPAP",
-			description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, autem sapiente libero, quisquam laudantium cupiditate! ",
+			description : "An concluded sportsman offending so provision mr education. Equally he minutes my hastily. Indulgence contrasted sufficient to unpleasant in in insensible favourable. Bed uncommonly his discovered for estimating far. Their saved linen downs tears son add music. Indulgence contrasted sufficient to unpleasant in in insensible",
 		}
 	]
+
+	$('.links__text__subtitle')[0].innerHTML = linksArray[0].subtitle;
+    $('.links__text__description')[0].innerHTML = linksArray[0].description;
 
     $(".header__menu__dropdown").click(function() {
         event.target.querySelector("section").classList.toggle("display-none");
@@ -58,13 +61,19 @@ $(function() {
 
     let linksCurrent = 0;
 
+    for (let i = 0; i < linksItemLength; i++) {
+                $('.links__main__item')[i].setAttribute('link-id', i);
+            }
+
     $('.links__main__item').hover(
         function() {
             for (let i = 0; i < linksItemLength; i++) {
                 $('.links__main__item')[i].classList.remove('links__main__item--active');
                 this.classList.add('links__main__item--active');
             }
-        
+           	let currentLinkId = this.getAttribute('link-id');
+        	$('.links__text__subtitle')[0].innerHTML = linksArray[currentLinkId].subtitle;
+        	$('.links__text__description')[0].innerHTML = linksArray[currentLinkId].description;
         },
         function() {
 

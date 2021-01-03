@@ -34,6 +34,7 @@
 .links__nav{
 	display: flex;
 	flex-direction: row;
+	padding-right: 20%;
 }
 
 .links__main__item {
@@ -59,6 +60,10 @@
 .links__main__item--active {
     background-color: var(--robotics-white);
     color: var(--robotics-dark);
+}
+
+.links__main__item--active:hover{
+	text-decoration: underline;
 }
 
 .links__text{
