@@ -65,8 +65,17 @@
 	</div>
 
 	<div class="partners">
-	<span class="topic-title"> Наши партнеры </span>
+	<span class="partners__title"> Наши партнеры </span>
+	<span class="partners__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</span>
+	<a href="#" class="partners__subtitle partners__subtitle-link"> Как стать партнером </a>
+	<div class="partners__container">
+		<div class="partners__card">
+			<img src="../img/partners/logo-savushkin-produkt.png" alt="">
+			<span> ООО Системы промышленной автоматизации </span>
+		</div>
 	</div>
+	</div>
+
 
 	<div class="gallery">
 	<div class="gallery__grid">
@@ -111,7 +120,7 @@
 
 	</div>
 
-	
+
 	<script src="script/script.js"></script>
 </body>
 </html>
